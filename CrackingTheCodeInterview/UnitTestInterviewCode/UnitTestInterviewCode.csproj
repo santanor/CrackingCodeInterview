@@ -52,8 +52,25 @@
   <ItemGroup>
     <Compile Include="StringCompressionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomLinkedList.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BinarySearch\BinarySearch.csproj">
+      <Project>{d51ff343-43ad-48c0-aaf9-62417dc585e0}</Project>
+      <Name>BinarySearch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CharactersUnique\CharactersUnique.csproj">
+      <Project>{b16d68f4-98e0-42c5-8365-395f0f69454b}</Project>
+      <Name>CharactersUnique</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomLinkedList\CustomLinkedList.csproj">
+      <Project>{46690db0-6132-437b-a5cc-9edda6e2d4da}</Project>
+      <Name>CustomLinkedList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IsPermutation\IsPermutation.csproj">
+      <Project>{19e89c3c-46f4-426f-842a-4a38996d3107}</Project>
+      <Name>IsPermutation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StringCompression\StringCompression.csproj">
       <Project>{f1fe92ed-6939-40f8-bb5e-99b25f07aad5}</Project>
       <Name>StringCompression</Name>
